@@ -1,0 +1,71 @@
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gallery</title>
+    <style>
+        body{
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            padding: 20px;
+            background-color: #f4f4f4;
+            max-width: 1200px;
+            margin: 0 auto;
+            background: fixed;
+            background-size: cover;
+            
+        }
+        .gallery{
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+            justify-content: center;
+        }
+        .gallery img{
+            width:100vw ;
+            height: 100vh;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        .gallery img{
+            transition: transform 0.3s;
+
+        }
+        
+        .gallery img:hover{
+            transform: scale(1.05);
+            box-shadow: 0 0 15px rgba(0,0,0,0.2);
+
+        }
+
+        a{
+            color: #333;
+            text-decoration: none;
+        }
+        a:hover{
+            text-decoration: underline;
+            color: green;
+        }
+
+    </style>
+</head>
+<body>
+    <h1>Gallery</h1>
+    <p>Welcome to our gallery</p>
+    <div class="gallery">
+        <img src="./images/IMG-20250926-WA0072.jpg" alt="Tree Image 1" style="width:40%; height:auto; border-radius:5px; box-shadow:0 0 10px rgba(0,0,0,0.1); margin:10px;">
+        <img src="./images/IMG-20250926-WA0069.jpg" alt="Tree Image 2" style="width:40%; height:auto; border-radius:5px; box-shadow:0 0 10px rgba(0,0,0,0.1); margin:10px;">
+        <img src="./images/IMG-20250926-WA0068.jpg" alt="Tree Image 3" style="width:40%; height:auto; border-radius:5px; box-shadow:0 0 10px rgba(0,0,0,0.1); margin:10px;">
+        <img src="./images/IMG-20250926-WA0039.jpg" alt="Tree Image 4" style="width:40%; height:auto; border-radius:5px; box-shadow:0 0 10px rgba(0,0,0,0.1); margin:10px;">
+        <!-- Add more images as needed -->
+    </div>
+    <p>We take pride in our work and are dedicated to providing the best car care services. Each project is handled with care and professionalism to ensure the health and longevity of your trees.</p>
+    <p>For inquiries or to schedule a consultation, please visit our <a href="Contact.html">Contact</a> page.</p>
+    <div>
+        <a href="index.html">Back to Home</a>
+
+    </div>
+    
+</body>
+</html>
